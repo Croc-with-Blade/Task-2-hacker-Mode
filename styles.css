@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    /*background-color: #162447;*/
+}
+
+.pause {
+    position: absolute;
+    top: 4%;
+    left: 90%;
+    width: 5%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 6vw;
+    color: #f0f0f0;
+}
+
+canvas {
+    background-color: #162447;
+}
+
+.game-over {
+    opacity: 60%;
+}
+
+#over {
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    width: 50%;
+    background: transparent;
+    padding: 50px auto 50px;
+    text-align: center;
+    display: none;
+    z-index: 3;
+}
+
+#highScore {
+    margin: 10%;
+    font-size: 4vw;
+    color: #f0f0f0;
+}
+
+#score {
+    display: inline-block;
+    background: transparent;
+    position: absolute;
+    color: whitesmoke;
+    left: 5%;
+    font-size: 2vw;
+}
+
+#pause {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: none;
+}
+
+#play {
+    display: inline-block;
+    width: 7%;
+    margin: 0 50px;
+}
+
+#restart {
+    display: inline-block;
+    width: 7%;
+    margin: 0 50px;
+}
+
+#game-restart {
+    width: 15%;
+    opacity: 100%;
+    margin: 30px 0;
+}
